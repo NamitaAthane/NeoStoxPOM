@@ -30,7 +30,7 @@ public class NeoStoxLogin {
 
 	public void signIntoLoginPage(WebDriver driver)
 	{
-		NeoUtility.ImplicitWaitCall(driver, 1000);
+		NeoUtility.ImplicitWaitCall(driver, 2000);
 		signIn.click();
 		
 		Reporter.log("Click on sign in",true);
