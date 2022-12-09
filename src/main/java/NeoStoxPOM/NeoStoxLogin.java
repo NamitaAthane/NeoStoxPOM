@@ -32,6 +32,7 @@ public class NeoStoxLogin {
 	{
 		NeoUtility.ImplicitWaitCall(driver, 1000);
 		signIn.click();
+		
 		Reporter.log("Click on sign in",true);
 	}
 }
